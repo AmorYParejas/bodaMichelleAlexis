@@ -1,0 +1,37 @@
+
+
+.confirmation-form input, .confirmation-form button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.confirmation-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .countdown {
+        font-size: 1.5rem;
+    }
+
+    .slider img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    #flores1{
+        width: 260px;
+
+    }
+    
+    #flores2{
+        width: 260px;
+
+    }
+
+    
+}
