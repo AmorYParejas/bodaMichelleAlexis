@@ -152,17 +152,17 @@ h1{
 }
 
 #countdown {
-    font-size: 18px;
-    width: 100%;
+    font-size: 15px;
     background-color: #f0f0f03b;
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 0 auto;
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 /*-----------------------    Segunda Seccion    -----------------------*/
@@ -294,7 +294,7 @@ h1{
 }
 
 .datos-contenedor article{
-    padding-top: 50px;
+    padding: 50px;
 }
 
 .svg-container {
