@@ -26,20 +26,26 @@ section{
     width: 100%;
     animation: reveal linear both;
     animation-timeline: view();
-    animation-range: entry 20% cover 50%;
+    animation-range: entry 10% cover 40%;
 }
 
 
 @keyframes reveal {
     from {
         opacity: 0.1;
-        translate: 0 60px;
+        translate: 0 40px;
     }
     to {
         opacity: 1;
         translate: 0 0;
     }
 }
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #e9d9c6;
+     color: #588038;
+     }
 
 /*-----------------------    Primera Seccion    -----------------------*/
 .section-1{
@@ -481,7 +487,7 @@ h1{
     background-color: #e9d9c6;
     padding: 80px 0;
     text-align: center;
-    position: relative;
+
     z-index: -1;
 }
 
@@ -539,10 +545,12 @@ form{
     justify-content: center;
     align-items: center;
     gap: 20px;
+
 }
 
 input{
     width: 80%;
+    height: 30px;
     padding: 10px;
     border-radius: 5px;
     border: none;

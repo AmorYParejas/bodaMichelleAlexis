@@ -62,12 +62,13 @@
 
 
 
+
   document.getElementById('whatsappForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Evitar que se envíe el formulario de forma tradicional
 
     // Obtener los valores de los campos
     const name = document.getElementById('name').value;
-    const phone = 7471240890;
+    const phone = 7471594702;
 
     // Crear el mensaje para WhatsApp
     const whatsappMessage = `Hola, somos la familia ${encodeURIComponent(name)}.  Mensaje: Recibimos tu invitación y estaremos felices de acompañarlos`;
