@@ -115,7 +115,7 @@ section{
 
 h1{
     font-family: "Tangerine", serif;
-    font-size: 70px;
+    font-size: 65px;
     margin: 0;
     margin-top: 25px;
     color: #588038;
@@ -123,15 +123,15 @@ h1{
 
 .nuestra{
     font-family: "Tangerine", serif;
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .fecha, .ciudad{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #countdown {
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
     background-color: #f0f0f03b;
     backdrop-filter: blur(10px);
@@ -156,7 +156,7 @@ h1{
     text-align: center;
     background-color: #545454;
     color: #e9d9c6;
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 
 .section-3 p{
@@ -175,28 +175,32 @@ h1{
 }
 
 .section-4 article{
-    width: 90%;
+    width: 80%;
     margin-top: 50px;
     z-index: 50;
     text-align: center;
+    padding: 40px 15px;
+    backdrop-filter: blur(5px);
+    border: 1px solid #588038;
+    border-radius: 10px; 
 }
 
 .section-4 h2{
-    font-size: 45px;
+    font-size: 55px;
     margin: 0;
     margin-top: 25px;
     color: #588038;
 }
 
 .section-4 h4{
-    font-size: 30px;
+    font-size: 35px;
     margin: 0;
     margin-top: 25px;
     color: #588038;
 }
 
 .section-4 p{
-    font-size: 25px;
+    font-size: 32px;
     margin: 0;
     margin-top: 25px;
 }
@@ -208,18 +212,21 @@ h1{
 
 /*-----------------------    Quinta Seccion    -----------------------*/
 .slider {
-    height: auto;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
     position: relative;
+    background-color: #545454;
 }
 
 .slides {
+    height: 100%;
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
 
 .slides img {
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -237,7 +244,7 @@ h1{
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
 }
 
@@ -272,31 +279,31 @@ h1{
     justify-content: center;
     align-items: center;
     border: 1px solid #588038;
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 110px;
     margin: 0 auto;
     border-radius: 100%;
 }
 
 .svg{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .datos-contenedor h4{
     font-family: "Tangerine", serif;
-    font-size: 35px;
+    font-size: 45px;
     margin: 6px;
     color: #588038;
 }
 
 .hora{
-    font-size: 20px;
+    font-size: 25px;
     margin: 1px;
 }
 
 .direccion{
-    font-size: 12px;
+    font-size: 18px;
 }
 
 /*-----------------------    Septima Seccion    -----------------------*/
@@ -370,22 +377,26 @@ h1{
     font-family: "Tangerine", serif;
 }
 
+.section-8 p{
+    font-size: 20px;
+}
+
 .gift{
-    width: 50px;
+    width: 70px;
 }
 
 .gift-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 110px;
     border: 1px solid #588038;
     border-radius: 100%;
 }
 
 .container-gift h2{
-    font-size: 40px;
+    font-size: 45px;
     margin: 0;
     margin-top: 25px;
     color: #588038;
