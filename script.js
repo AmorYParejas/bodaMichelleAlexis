@@ -58,3 +58,24 @@
            currentIndex = (currentIndex - 1 + images.length) % images.length;
            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
        });
+
+
+
+
+  document.getElementById('whatsappForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evitar que se envíe el formulario de forma tradicional
+
+    // Obtener los valores de los campos
+    const name = document.getElementById('name').value;
+    const phone = 7471240890;
+
+    // Crear el mensaje para WhatsApp
+    const whatsappMessage = `Hola, somos la familia ${encodeURIComponent(name)}.  Mensaje: Recibimos tu invitación y estaremos felices de acompañarlos`;
+
+    // Crear el enlace de WhatsApp
+    const whatsappURL = `https://wa.me/52${phone}?text=${whatsappMessage}`;
+
+    // Redirigir al enlace de WhatsApp
+    window.open(whatsappURL, '_blank');
+  });
+

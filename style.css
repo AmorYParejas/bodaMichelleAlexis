@@ -24,6 +24,21 @@ main {
 
 section{
     width: 100%;
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
+}
+
+
+@keyframes reveal {
+    from {
+        opacity: 0.1;
+        translate: 0 60px;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
 }
 
 /*-----------------------    Primera Seccion    -----------------------*/
@@ -115,7 +130,7 @@ section{
 
 h1{
     font-family: "Tangerine", serif;
-    font-size: 65px;
+    font-size: 60px;
     margin: 0;
     margin-top: 25px;
     color: #588038;
@@ -147,7 +162,7 @@ h1{
 /*-----------------------    Segunda Seccion    -----------------------*/
 .section-2 {
     height: 100vh;
-    background: url('img/bg-1.jpeg') no-repeat center center/cover;
+    background: url('img/fotos/DSC_3720.webp') no-repeat center center/cover;
 }
 
 /*-----------------------    Tercera Seccion    -----------------------*/
@@ -157,6 +172,7 @@ h1{
     background-color: #545454;
     color: #e9d9c6;
     padding: 50px 0px;
+    font-size: 25px;
 }
 
 .section-3 p{
@@ -203,6 +219,7 @@ h1{
     font-size: 32px;
     margin: 0;
     margin-top: 25px;
+    
 }
 
 .cross-svg{
@@ -355,22 +372,29 @@ h1{
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .section-8 article{
     width: 80%;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    gap: 60px;
     z-index: 50;
     text-align: center;
     backdrop-filter: blur(5px);
     border: 1px solid #588038;
-    padding: 60px 10px;
+    padding: 40px 10px;
     border-radius: 10px;
+}
+
+.section-8 .container-gift div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-8 h2{
@@ -523,7 +547,7 @@ input{
     border-radius: 5px;
     border: none;
     background-color: #58803833;
-    color: #545454;
+    color: #292828;
     font-family: "Playfair Display", serif;
 }
 
@@ -531,8 +555,9 @@ button{
     border: none;
     background-color: #545454;
     color: #e9d9c6;
-    padding: 5px 10px;
-    border-radius: 2px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 20px;
 }
 
 
@@ -548,6 +573,7 @@ button{
 
 .section-11 h2{
     font-family: "Tangerine", serif;
+    font-size: 40px;
 }
 
 .section-11 p{
