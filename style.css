@@ -460,6 +460,14 @@ h1{
     text-align: center;
 }
 
+.section-9 article{
+    display: flex;
+}
+
+.section-9 article div{
+    width: 50%;
+}
+
 .tie-svg{
     width: 80px;
     margin: 20px;
