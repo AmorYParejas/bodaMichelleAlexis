@@ -167,7 +167,7 @@ h1{
 
 /*-----------------------    Segunda Seccion    -----------------------*/
 .section-2 {
-    height: 100vh;
+    height: 80vh;
     background: url('img/fotos/DSC_3720.webp') no-repeat center center/cover;
 }
 
@@ -334,6 +334,12 @@ h1{
     background-color: #545454;
     color: #e9d9c6;
     padding: 50px 0;
+}
+
+.section-7 p{
+    padding: 18px 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 .itinerario{
